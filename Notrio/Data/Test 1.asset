@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab3373cbfa42747a859fac89efc405, type: 3}
+  m_Name: Test 1
+  m_EditorClassIdentifier: 
+  tipText: Tip 2
+  node: 3
+  InitialPuzzle: 0.0......1.1.01...0....1..0...1.1.1.
+  puzzleSolution: 010011010101101100001011110100101010
+  animationTimeline:
+  - deltaTime: 2
+    action: 1
+    additionalInfor: 1B
+  - deltaTime: 2
+    action: 1
+    additionalInfor: 3B
+  - deltaTime: 2
+    action: 1
+    additionalInfor: 2B
+  - deltaTime: 2
+    action: 3
+    additionalInfor: 2B

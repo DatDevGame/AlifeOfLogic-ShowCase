@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1381983946977622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4542475000357186}
+  - component: {fileID: 114099770400497786}
+  m_Layer: 0
+  m_Name: PuzzleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4542475000357186
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381983946977622}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114099770400497786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1381983946977622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9910f97916cd0414c814167c2395ac26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cryptoKey: {fileID: 11400000, guid: 8dc22c8d9a59f58408d162bad8d61742, type: 2}
+  packs:
+  - {fileID: 11400000, guid: 10152a2751f5a6f478293688497383aa, type: 2}
+  - {fileID: 11400000, guid: 8b924bc113ea66041a7cc4620460f390, type: 2}
+  - {fileID: 11400000, guid: 9c33649d6dfa49342b3348ab4336a12f, type: 2}
+  - {fileID: 11400000, guid: 462a673f66da92b4ca288096dfb201fe, type: 2}
+  - {fileID: 11400000, guid: 8af938a36db3acc41b2a7a4dca4d82c1, type: 2}
+  ageList: 0300000006000000090000000c0000001000000014000000180000001c00000021000000260000002b00000030000000360000003c00000042000000480000004f000000560000005d00000064000000
+  accentColors:
+  - {r: 0.59355766, g: 0.754717, b: 0.4734781, a: 1}
+  - {r: 0.4783731, g: 0.7447311, b: 0.8113208, a: 1}
+  - {r: 0.9056604, g: 0.7696188, b: 0.3972944, a: 1}
+  - {r: 0.8396226, g: 0.5584282, b: 0.8096286, a: 1}
+  - {r: 1, g: 0.4292453, b: 0.4292453, a: 1}
+  packSizesList:
+  - packLevel: 1
+    sizes: 06000000080000000a0000000c000000
+  - packLevel: 2
+    sizes: 06000000080000000a0000000c000000
+  - packLevel: 3
+    sizes: 06000000080000000a0000000c000000
+  - packLevel: 4
+    sizes: 06000000080000000a0000000c000000
+  - packLevel: 5
+    sizes: 06000000080000000a0000000c000000
+  levelInfors:
+  - level: 0
+    levelName: UnGraded
+  - level: 1
+    levelName: TODDLER
+  - level: 2
+    levelName: JUNIOR
+  - level: 3
+    levelName: GRADUATE
+  - level: 4
+    levelName: ASTRONOMER
+  - level: 5
+    levelName: COSMOLOGIST
+  challengeIds: []
+  multiPlayerPuzzleIds: []

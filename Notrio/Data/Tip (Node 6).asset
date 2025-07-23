@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab3373cbfa42747a859fac89efc405, type: 3}
+  m_Name: Tip (Node 6)
+  m_EditorClassIdentifier: 
+  tipTitle: Last Number B
+  tipText: '
+
+    In this example, row 3 only has one 0 left. If 3F is a 0 then the row will contain
+    three-in-a-row of 1 in its remaining squares. Therefore 3F must be a 1.'
+  listCellDisplay:
+  - 3
+  - 0
+  - 3F
+  - 0
+  - 1
+  - 3F
+  - 1
+  node: 4
+  puzzleInNode: 1
+  autoShow: 1
+  InitialPuzzle: 1....1.01...0....1001...101.......00
+  puzzleSolution: 010011010101101100001011110100101010
+  paternList:
+  - 001xxx
+  - 110xxx
+  animationTimeline:
+  - deltaTime: 0
+    action: 5
+    additionalInfor: 3A-3B-3C-3D-3E-3F
+  - deltaTime: 0
+    action: 0
+    additionalInfor: 3A-3B-3C-3D-3E-3F
+  - deltaTime: 2
+    action: 2
+    additionalInfor: 3F
+  - deltaTime: 0.5
+    action: 1
+    additionalInfor: 3D
+  - deltaTime: 0.5
+    action: 1
+    additionalInfor: 3E
+  - deltaTime: 2
+    action: 3
+    additionalInfor: 3D
+  - deltaTime: 0.5
+    action: 3
+    additionalInfor: 3E
+  - deltaTime: 0.5
+    action: 3
+    additionalInfor: 3F
+  - deltaTime: 0.5
+    action: 2
+    additionalInfor: 3F
+  - deltaTime: 0.3
+    action: 1
+    additionalInfor: 3F
+  - deltaTime: 0.5
+    action: 0
+    additionalInfor: 3F
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 
+  - deltaTime: 2
+    action: 4
+    additionalInfor: 

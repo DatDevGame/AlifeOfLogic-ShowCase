@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &104526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 451648}
+  - component: {fileID: 114424061108346466}
+  - component: {fileID: 11480196}
+  - component: {fileID: 114160112382929586}
+  m_Layer: 0
+  m_Name: PremiumFeaturesManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &451648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104526}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114424061108346466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96c525a5419c549d38ad70a5eaa56a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enablePremiumFeatures: 1
+--- !u!114 &11480196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47830b8d66c74670b0edccbd3721389, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  removeAds: Remove Ads
+  removeAdsPrice: $2.99
+  coinPacks:
+  - productName: Pack 100 coins
+    priceString: $0.99
+    coinValue: 100
+  - productName: Pack 200 coins
+    priceString: $1.99
+    coinValue: 200
+  - productName: Pack 400 coins
+    priceString: $2.99
+    coinValue: 400
+  - productName: Pack 600 coins
+    priceString: $3.99
+    coinValue: 600
+  - productName: Pack 800 coins
+    priceString: $4.99
+    coinValue: 800
+  - productName: Pack 1000 coins
+    priceString: $5.99
+    coinValue: 1000
+  subscriptionPacks:
+  - productName: Weekly - Subscription
+    priceString: $2.99
+  - productName: Monthly - Subscription
+    priceString: $4.99
+  oneTimePurchaseProductName: permanent_premium
+  oneTimePurchaseProductPriceString: $19.99
+  oneTimePurchaseProductPrice: 19.99
+  oneTimePurchaseDiscountProductName: permanent_premium_discounted
+  oneTimePurchaseDiscountPriceString: $9.99
+  oneTimePurchaseDiscountPrice: 9.99
+--- !u!114 &114160112382929586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0210d5629000c441c81d345dd56d610d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requestMode: 0
+  daysAfterInstall: 14
+  daysBetweenRequests: 14

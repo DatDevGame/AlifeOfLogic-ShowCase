@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a95b8aeb221c0948a7aba1f751d6b3f, type: 3}
+  m_Name: coin-12-medium
+  m_EditorClassIdentifier: 
+  size: 12
+  level: 2
+  minBaseCoin: 12
+  maxBaseCoin: 12
+  noPowerupBonusPercent: 0
+  noErrorBonusPercent: 0
+  dailyChallengeFixedReward: 50
+  weeklyChallengeFixedReward: 100
+  noJudgingOnChallenge: 0

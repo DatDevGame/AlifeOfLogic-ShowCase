@@ -1,0 +1,30 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:09fc9438f5ca93ebf28f0bbbef913d32:8c7dd431e3ea32cf5c820bf5f91b1c9f:606ad564f67d883eadcccc348d35f2e7$
+#
+:format=40300
+:texture=buttons.png
+:size=512x1024
+:pivotpoints=enabled
+:borders=disabled
+
+button-normal;2;882;128;140; 0.5;0.5; 0;0;0;0
+button-pressed;132;882;128;140; 0.5;0.5; 0;0;0;0
+circle128-inner-shadow;132;610;128;128; 0.5;0.5; 0;0;0;0
+ingame_bt_hint_powerup_rect;392;894;100;128; 0.5;0.5; 0;0;0;0
+ingame_bt_hint_powerup_rect_disabled;392;764;100;128; 0.5;0.5; 0;0;0;0
+ingame_bt_hint_powerup_rect_pressed;392;634;100;128; 0.5;0.5; 0;0;0;0
+ingame_bt_undo_powerup_rect;392;504;100;128; 0.5;0.5; 0;0;0;0
+ingame_bt_undo_powerup_rect_disabled;2;468;100;128; 0.5;0.5; 0;0;0;0
+ingame_bt_undo_powerup_rect_pressed;262;480;100;128; 0.5;0.5; 0;0;0;0
+level-selector-normal;262;882;128;140; 0.5;0.5; 0;0;0;0
+level-selector-pressed;2;740;128;140; 0.5;0.5; 0;0;0;0
+pack-selector-normal;132;740;128;140; 0.5;0.5; 0;0;0;0
+pack-selector-pressed;262;740;128;140; 0.5;0.5; 0;0;0;0
+rounded-button-normal;262;610;128;128; 0.5;0.5; 0;0;0;0
+rounded-button-pressed;132;480;128;128; 0.5;0.5; 0;0;0;0
+toggle-background;2;598;128;140; 0.5;0.5; 0;0;0;0

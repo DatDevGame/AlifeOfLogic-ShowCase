@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 995a88c88777a425ea7168b8623c2758, type: 3}
+  m_Name: Default 17
+  m_EditorClassIdentifier: 
+  name: Halloween
+  zeroSprite: {fileID: 21300000, guid: c403783e684ee456bbafcf875fd69b37, type: 3}
+  zeroTintColor: {r: 1, g: 1, b: 1, a: 1}
+  oneSprite: {fileID: 21300000, guid: f953a22e2e05043f68df38795917c8cf, type: 3}
+  oneTintColor: {r: 1, g: 1, b: 1, a: 1}
+  supportNumber: 0
+  saveKey: Halloween
+  isFree: 0

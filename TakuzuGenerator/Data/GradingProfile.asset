@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 391f05bf9c178b44398b0f622a1aacb3, type: 3}
+  m_Name: GradingProfile
+  m_EditorClassIdentifier: 
+  UnGraded:
+    minParsePercent: -1
+    maxParsePercent: -1
+    minLsdPercent: -1
+    maxLsdPercent: -1
+    minAlsdPercent: -1
+    maxAlsdPercent: -1
+  SixEasy:
+    minParsePercent: 100
+    maxParsePercent: 100
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  SixMedium:
+    minParsePercent: 55
+    maxParsePercent: 85
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  SixHard:
+    minParsePercent: 0
+    maxParsePercent: 85
+    minLsdPercent: 0
+    maxLsdPercent: 85
+    minAlsdPercent: 65
+    maxAlsdPercent: 85
+  SixEvil:
+    minParsePercent: 0
+    maxParsePercent: 60
+    minLsdPercent: 0
+    maxLsdPercent: 60
+    minAlsdPercent: 45
+    maxAlsdPercent: 60
+  SixInsane:
+    minParsePercent: 0
+    maxParsePercent: 40
+    minLsdPercent: 0
+    maxLsdPercent: 40
+    minAlsdPercent: 0
+    maxAlsdPercent: 40
+  EightEasy:
+    minParsePercent: 100
+    maxParsePercent: 100
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  EightMedium:
+    minParsePercent: 70
+    maxParsePercent: 86
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  EightHard:
+    minParsePercent: 0
+    maxParsePercent: 88
+    minLsdPercent: 0
+    maxLsdPercent: 88
+    minAlsdPercent: 76
+    maxAlsdPercent: 88
+  EightEvil:
+    minParsePercent: 0
+    maxParsePercent: 65
+    minLsdPercent: 0
+    maxLsdPercent: 65
+    minAlsdPercent: 45
+    maxAlsdPercent: 65
+  EightInsane:
+    minParsePercent: 0
+    maxParsePercent: 40
+    minLsdPercent: 0
+    maxLsdPercent: 40
+    minAlsdPercent: 0
+    maxAlsdPercent: 40
+  TenEasy:
+    minParsePercent: 100
+    maxParsePercent: 100
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  TenMedium:
+    minParsePercent: 65
+    maxParsePercent: 87
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  TenHard:
+    minParsePercent: 0
+    maxParsePercent: 92
+    minLsdPercent: 0
+    maxLsdPercent: 92
+    minAlsdPercent: 81
+    maxAlsdPercent: 92
+  TenEvil:
+    minParsePercent: 0
+    maxParsePercent: 75
+    minLsdPercent: 0
+    maxLsdPercent: 75
+    minAlsdPercent: 55
+    maxAlsdPercent: 75
+  TenInsane:
+    minParsePercent: 0
+    maxParsePercent: 50
+    minLsdPercent: 0
+    maxLsdPercent: 50
+    minAlsdPercent: 0
+    maxAlsdPercent: 50
+  TwelveEasy:
+    minParsePercent: 100
+    maxParsePercent: 100
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  TwelveMedium:
+    minParsePercent: 70
+    maxParsePercent: 85
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  TwelveHard:
+    minParsePercent: 0
+    maxParsePercent: 95
+    minLsdPercent: 0
+    maxLsdPercent: 95
+    minAlsdPercent: 86
+    maxAlsdPercent: 95
+  TwelveEvil:
+    minParsePercent: 0
+    maxParsePercent: 80
+    minLsdPercent: 0
+    maxLsdPercent: 80
+    minAlsdPercent: 60
+    maxAlsdPercent: 80
+  TwelveInsane:
+    minParsePercent: 0
+    maxParsePercent: 50
+    minLsdPercent: 0
+    maxLsdPercent: 50
+    minAlsdPercent: 0
+    maxAlsdPercent: 50
+  FourteenEasy:
+    minParsePercent: 100
+    maxParsePercent: 100
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  FourteenMedium:
+    minParsePercent: 70
+    maxParsePercent: 85
+    minLsdPercent: 100
+    maxLsdPercent: 100
+    minAlsdPercent: 100
+    maxAlsdPercent: 100
+  FourteenHard:
+    minParsePercent: 0
+    maxParsePercent: 95
+    minLsdPercent: 0
+    maxLsdPercent: 95
+    minAlsdPercent: 86
+    maxAlsdPercent: 95
+  FourteenEvil:
+    minParsePercent: 0
+    maxParsePercent: 80
+    minLsdPercent: 0
+    maxLsdPercent: 80
+    minAlsdPercent: 60
+    maxAlsdPercent: 80
+  FourteenInsane:
+    minParsePercent: 0
+    maxParsePercent: 50
+    minLsdPercent: 0
+    maxLsdPercent: 50
+    minAlsdPercent: 0
+    maxAlsdPercent: 50

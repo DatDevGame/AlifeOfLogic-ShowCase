@@ -1,0 +1,44 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:cbc1aa41fe9c6a24f968824de713a3ed:06ce2d2beb6200d8b836e562b8e1bde9:4c483e88071825aece7d59931ba224c8$
+#
+:format=40300
+:texture=dot-anim.png
+:size=512x512
+:pivotpoints=enabled
+:borders=disabled
+
+dot-anim-frame-0;0;448;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-1;128;448;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-2;256;448;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-3;384;448;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-4;0;384;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-5;128;384;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-6;256;384;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-7;384;384;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-8;0;320;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-9;128;320;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-10;256;320;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-11;384;320;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-12;0;256;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-13;128;256;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-14;256;256;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-15;384;256;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-16;0;192;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-17;128;192;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-18;256;192;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-19;384;192;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-20;0;128;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-21;128;128;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-22;256;128;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-23;384;128;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-24;0;64;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-25;128;64;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-26;256;64;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-27;384;64;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-28;0;0;128;64; 0.5;0.5; 0;0;0;0
+dot-anim-frame-29;128;0;128;64; 0.5;0.5; 0;0;0;0

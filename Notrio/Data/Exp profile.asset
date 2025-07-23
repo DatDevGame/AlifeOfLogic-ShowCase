@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55e0b852305b4c42a27064c834037a7, type: 3}
+  m_Name: Exp profile
+  m_EditorClassIdentifier: 
+  exp: 00000000f4010000dc050000a00f00008813000010270000983a0000204e0000a86100003075000000400d03
+  rank:
+  - 
+  - No rank
+  - Newbie
+  - Trainee
+  - Junior
+  - Senior
+  - Pro
+  - Expert
+  - Master
+  - Champion
+  - Legend
+  icon:
+  - {fileID: 0}
+  - {fileID: 21300000, guid: fea1adc71a883f445af59322b2455f4d, type: 3}
+  - {fileID: 21300000, guid: 32fbc67a5acb2aa4a807ea3b97366f15, type: 3}
+  - {fileID: 21300000, guid: 1bb0759d4448e8541a2982be581c18de, type: 3}
+  - {fileID: 21300000, guid: 4daf7a9a98ed6f747ad9e09e206b9bd9, type: 3}
+  - {fileID: 21300000, guid: c08078faf0b60304285c05c7c425f3f6, type: 3}
+  - {fileID: 21300000, guid: 32298214b58f45743bfb0a3009fa7af6, type: 3}
+  - {fileID: 21300000, guid: 8ce35a4d5be75534f98b185656e85e4e, type: 3}
+  - {fileID: 21300000, guid: 55f628c6c804ef24d88b10394768e36d, type: 3}
+  - {fileID: 21300000, guid: 6cba9b640c60dc144a11117052ee0436, type: 3}
+  - {fileID: 21300000, guid: 82941398ae0f18c45aed5c7d93f4ecf0, type: 3}
+  accentColor:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.6666667, g: 0.70980394, b: 0.7294118, a: 1}
+  - {r: 0, g: 1, b: 0.7984445, a: 1}
+  - {r: 0, g: 1, b: 0.8000001, a: 1}
+  - {r: 0, g: 1, b: 0.8000001, a: 1}
+  - {r: 1, g: 0.76551723, b: 0, a: 1}
+  - {r: 1, g: 0.76470596, b: 0, a: 1}
+  - {r: 1, g: 0.76470596, b: 0, a: 1}
+  - {r: 1, g: 0.628, b: 0.70596606, a: 1}
+  - {r: 1, g: 0.627451, b: 0.7058824, a: 1}
+  - {r: 1, g: 0.627451, b: 0.7058824, a: 1}

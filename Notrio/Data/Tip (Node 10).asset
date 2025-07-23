@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab3373cbfa42747a859fac89efc405, type: 3}
+  m_Name: Tip (Node 10)
+  m_EditorClassIdentifier: 
+  tipTitle: Bridge Exclusion
+  tipText: Sometimes squares between two similar lines can be determined by the unique
+    line rule. In this example, if 4D is a 1 then column B will end up being the same
+    as column E. Therefore 4D must be a 0.
+  listCellDisplay:
+  - 4D
+  - 1
+  - B
+  - E
+  - 4D
+  - 0
+  node: 13
+  puzzleInNode: 0
+  autoShow: 1
+  InitialPuzzle: 1......0.10.0.1...1..0...1..1.00.101
+  puzzleSolution: 010011010101101100001011110100101010
+  paternList: []
+  animationTimeline:
+  - deltaTime: 0
+    action: 5
+    additionalInfor: 1B-2B-3B-4B-5B-6B-1E-2E-3E-4E-5E-6E-4C-4D
+  - deltaTime: 0
+    action: 0
+    additionalInfor: 4D
+  - deltaTime: 1
+    action: 0
+    additionalInfor: 4B-4E
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 
+  - deltaTime: 1
+    action: 1
+    additionalInfor: 4D
+  - deltaTime: 1
+    action: 2
+    additionalInfor: 4B-4E
+  - deltaTime: 1
+    action: 1
+    additionalInfor: 3B-6B-3E-6E
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 
+  - deltaTime: 1
+    action: 3
+    additionalInfor: 3B-4B-6B-3E-4E-6E-4D
+  - deltaTime: 1
+    action: 2
+    additionalInfor: 4D
+  - deltaTime: 1
+    action: 0
+    additionalInfor: 4D
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 

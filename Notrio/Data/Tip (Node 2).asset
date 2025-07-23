@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8ab3373cbfa42747a859fac89efc405, type: 3}
+  m_Name: Tip (Node 2)
+  m_EditorClassIdentifier: 
+  tipTitle: The Single Gap
+  tipText: '
+
+    If two outer squares (3B and 5B) have the same value then the square between them
+    (4B) must have the opposite value or you will get three-in-a-row.'
+  listCellDisplay:
+  - 3B
+  - 5B
+  - 4B
+  node: 0
+  puzzleInNode: 1
+  autoShow: 1
+  InitialPuzzle: 1.0.00.0.0.1..1..0.0....0..1..0..1..
+  puzzleSolution: 010011010101101100001011110100101010
+  paternList:
+  - 1x1
+  - 0x0
+  animationTimeline:
+  - deltaTime: 0
+    action: 5
+    additionalInfor: 1B-2B-3B-4B-5B-6B
+  - deltaTime: 0
+    action: 0
+    additionalInfor: 1B-2B-3B-4B-5B-6B
+  - deltaTime: 2
+    action: 0
+    additionalInfor: 4B
+  - deltaTime: 1
+    action: 2
+    additionalInfor: 4B
+  - deltaTime: 2
+    action: 3
+    additionalInfor: 4B
+  - deltaTime: 0.5
+    action: 1
+    additionalInfor: 4B
+  - deltaTime: 0.5
+    action: 0
+    additionalInfor: 4B
+  - deltaTime: 1
+    action: 4
+    additionalInfor: 
+  - deltaTime: 2
+    action: 4
+    additionalInfor: 0
